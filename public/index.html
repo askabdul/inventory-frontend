@@ -10,25 +10,64 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    
     <title>React App</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <link href="%PUBLIC_URL%/assets/css/default/app.min.css" rel="stylesheet" />
+    <link href="%PUBLIC_URL%/assets/plugins/jvectormap-next/jquery-jvectormap.css" rel="stylesheet" />
+    <link href="%PUBLIC_URL%/assets/plugins/bootstrap-datepicker/dist/css/bootstrap-datepicker.css" rel="stylesheet" />
+    <link href="%PUBLIC_URL%/assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" />
+
+    <link href="%PUBLIC_URL%/assets/plugins/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    <link href="%PUBLIC_URL%/assets/plugins/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" />
+    <link href="%PUBLIC_URL%/assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" />
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <script src="%PUBLIC_URL%/assets/js/app.min.js" type="text/babel"></script>
+    <script src="%PUBLIC_URL%/assets/js/theme/default.min.js" type="text/babel"></script>
+    <script src="%PUBLIC_URL%/assets/plugins/gritter/js/jquery.gritter.js" type="text/babel"></script>
+    <script src="%PUBLIC_URL%/assets/plugins/flot/jquery.flot.js" type="text/babel"></script>
+    <script src="%PUBLIC_URL%/assets/plugins/flot/jquery.flot.time.js" type="text/babel"></script>
+    <script src="%PUBLIC_URL%/assets/plugins/flot/jquery.flot.resize.js" type="text/babel"></script>
+    <script src="%PUBLIC_URL%/assets/plugins/flot/jquery.flot.pie.js" type="text/babel"></script>
+    <script src="%PUBLIC_URL%/assets/plugins/jquery-sparkline/jquery.sparkline.min.js" type="text/babel"></script>
+    <script src="%PUBLIC_URL%/assets/plugins/jvectormap-next/jquery-jvectormap.min.js" type="text/babel"></script>
+    <script src="%PUBLIC_URL%/assets/plugins/jvectormap-next/jquery-jvectormap-world-mill.js" type="text/babel"></script>
+    <script src="%PUBLIC_URL%/assets/plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.js" type="text/babel"></script>
+    <script src="%PUBLIC_URL%/assets/js/demo/dashboard.js" type="text/babel"></script>
+
+    <script src="%PUBLIC_URL%/assets/plugins/datatables.net/js/jquery.dataTables.min.js" type="text/babel"></script>
+    <script src="%PUBLIC_URL%/assets/plugins/datatables.net-bs4/js/dataTables.bootstrap4.min.js" type="text/babel"></script>
+    <script src="%PUBLIC_URL%/assets/plugins/datatables.net-responsive/js/dataTables.responsive.min.js" type="text/babel"></script>
+    <script src="%PUBLIC_URL%/assets/plugins/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js" type="text/babel"></script>
+    <script src="%PUBLIC_URL%/assets/js/demo/table-manage-default.demo.js" type="text/babel"></script>
+
+    <script src="%PUBLIC_URL%/assets/plugins/gritter/js/jquery.gritter.js" type="838ba6c327e7aff004b23e14-text/javascript"></script>
+    <script src="%PUBLIC_URL%/assets/plugins/sweetalert/dist/sweetalert.min.js" type="838ba6c327e7aff004b23e14-text/javascript"></script>
+    <script src="%PUBLIC_URL%/assets/js/demo/ui-modal-notification.demo.js" type="838ba6c327e7aff004b23e14-text/javascript"></script>
+
+
+    <script src="%PUBLIC_URL%/assets/js/demo/login-v2.demo.js" type="text/babel"></script>
+
+    <script type="text/babel">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-53034621-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="d2c69255b1a97aa6682608f1-|49" defer=""></script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
